@@ -1,0 +1,124 @@
+#clearer     {
+    clear: both;
+}
+
+* {
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+a:hover {
+  color: rgb(255, 153, 0);
+}
+
+#nav_item {
+    float: left;
+    font-size: 25;
+    margin-left: 35px;
+    margin-top: 6px;
+}
+
+#reservation_item_container {
+    border-radius: 5px;
+    float: left;
+    margin-left: 35px;
+    background-color: rgb(241, 207, 144);
+}
+
+#reservation_item {
+    font-size: 25;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#login_item_container {
+    right: 0%;
+    position: absolute;
+    border-radius: 8px;
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2f2f2f;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+#login_item {
+    letter-spacing: 1px;
+    font-size: 15;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-weight: 700;
+}
+
+.flex {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.logo_container {
+    float: left;
+    max-width: 14%;
+    max-height: 14%;
+    display: inline-table;
+}
+
+#logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navigation {
+    padding-top: 5%;
+    float: right;
+}
+
+
+.footer {
+    letter-spacing: 1px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #2f2f2f;
+    text-align: center;
+    font-size: 18;
+ }
+
+.responseContainer {
+  position: relative;
+  width: auto;
+  height: 600px;
+}
+
+.response {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50;
+    text-align: center;
+    font-weight: 900; 
+}
+
+label[for=feedback]
+{
+   display:block; 
+   color:yellow; 
+   text-align:center; 
+   font-size:20;     
+   letter-spacing: 1px;
+}
