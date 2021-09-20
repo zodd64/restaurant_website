@@ -6,7 +6,7 @@ $dbname = "id16342909_user_db";
 $port = 8889;
 
 $dbuser = "id16342909_zodd64";
-$dbpass = "Melitzanas7*";
+$dbpass = "";
 
 $dsn = "mysql:host={$dbhost};dbname={$dbname};port={$port};charset=utf8mb4"; 
 $options=[ PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION ];
